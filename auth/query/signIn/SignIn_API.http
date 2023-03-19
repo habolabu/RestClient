@@ -1,0 +1,12 @@
+# permission: none
+# required: none
+#
+# Params: none
+
+POST {{protocol}}{{domain}}{{port}}/{{base-auth-service}}/{{query-service-type}}/api/sign-in
+Content-Type: application/json
+
+{
+    "username":"test.user1",
+    "password":"12345678"
+}
